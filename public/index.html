@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>List</title>
+
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js'></script>
+    <script src="javascripts/main.js"></script>
+
+</head>
+
+<body>
+
+<div id="panel">
+    <form name="test" method="post" action="input1.php">
+        <p><b>First:</b><br>
+            <input name="first"  size="40" value="1">
+        </p>
+        <p><b>Second:</b><br>
+            <input name="second" type="number" size="40" value="1">
+        </p>
+        <p><b>Third:</b><br>
+            <input name="third" type="number" size="40" value="1">
+        </p>
+        <p><b>Fourth:</b><br>
+            <input name="fourth" type="number" size="40" value="1">
+        </p>
+        <p><b>List:</b><br>
+            <input name="list" size="40" disabled>
+        </p>
+        <p><b>List reverse:</b><br>
+            <input name="listReverse" size="40" disabled>
+        </p>
+        <!--<p><b>List^2 (ForEach):</b><br>
+            <input name="listForEach" size="40" disabled>
+        </p>-->
+        <p><b>Item add:</b><br>
+            <input name="itemAdd" size="40" >
+        </p>
+        <p><b>Position:</b><br>
+            <input name="position" size="40" >
+        </p>
+        <p><b>New List:</b><br>
+            <input name="NewList" size="40" disabled>
+        </p>
+        <p><b>To insert an element at the beginning of the list:</b><br>
+            <input name="firstItem" size="40">
+        </p>
+        <p><b>To insert an element at the end of the list:</b><br>
+            <input name="lastItem" size="40">
+        </p>
+        <p><b>New List:</b><br>
+            <input name="NewList1" size="40" disabled>
+        </p>
+        <input type="button" value="Remove the element at the top of the list" name="removeFirstItem" id="subButtonF"/>
+        <p><b>New List:</b><br>
+            <input name="NewList2" size="40" disabled>
+        </p>
+        <input type="button" value="Remove an element at the end of the list" name="removeLastItem" id="subButtonL"/>
+        <p><b>New List:</b><br>
+            <input name="NewList3" size="40" disabled>
+        </p>
+        <p><b>Find item:</b><br>
+            <input name="findItem" size="40">
+        </p>
+        <p><b>true - exists, false - no exists:</b><br>
+            <input name="findItemProv" size="40" disabled>
+        </p>
+    </form>
+</div>
+</body>
+</html>
